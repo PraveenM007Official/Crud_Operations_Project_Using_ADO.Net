@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Crud_Project.exe" version="1.0.0.0" publicKeyToken="c16b9f194f8fbed7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Crud_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Crud_Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Crud_Project.exe" size="250360">
+      <assemblyIdentity name="Crud_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jBIw9hgNlEIMNf4uSog5Z93h7QLFnCL3PrUUx1945tk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="app.ico" size="224360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zEu992+JBQCqveODvOYohzovrdEjFJ9eE03njfAmqXo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Crud.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aQgO2EyRHmBDciNwLplZ1uX/hJBrYMT8BssSw9kapGk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Crud_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Itvm4ieYdrrMtpGzZc7ed6w2htnjtAUhS/iRBaNes50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Crud_Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PRAVEENSWAT-PC\PRAVEEN-PC" issuerKeyHash="1155c724e10ce03a71788ed8a38d145f6e3520a1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GYjxUaWHOZD0FU4cRImx0LCML4XjTPvjeDs3rNhQPFE=</DigestValue></Reference></SignedInfo><SignatureValue>nLZEjWxCajjeVS9Dq5UwK5QH8554459FtBt+gzC831ZtIlHpjZLXN0xGjrE+kIulswfcH1iB7fLcEUx1KihB7Yv5rqbKXGxWJ8uhyVOADPfbSGo165BDIgGfsbB9d2/dSPCfo8a8MwEadiI5dtfcIhMwlIvUWmyiyQLeIxnCjL8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0j65gr5gjATmWRZoG/X4pwIEhpjPvg8tMSTHU7DT4f80TZaqVlugI+CJfPyIXZBr7gSUEVx43b+r66MsrdKydUJ8l+kqJ4FoTMcIJgoA7PfLyEfaJCl6mTQObLL/hHHjBWbvqnMGlrIYvVJxJtmjJvZuE/eMUyAE7oh65qhP5b0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="513c50d8ac373b78e3fb4ce3852f8cb0d0b189441c4e15f4903987a551f18819" Description="" Url=""><as:assemblyIdentity name="Crud_Project.exe" version="1.0.0.0" publicKeyToken="c16b9f194f8fbed7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PRAVEENSWAT-PC\PRAVEEN-PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ejKxNXfgPQmuQgnETr7/mA6bmTlxbNGKphwMOH8USHY=</DigestValue></Reference></SignedInfo><SignatureValue>nHFOGykbdiG+tSJ4qEly9Q5xRsh4uZVeO5NOmXviwSvWmG3h50lJOzSo0I830ZlCDA/sMrgg/JwR1ztCf0pi7GFaAKLDJRkMtd1blT6IkiN4nlKqrGbHU+9Zorm246k7MIpU8DeWrWxG4aEWZrByNXs9UuLTIEQ3GOaFEtk5cIU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0j65gr5gjATmWRZoG/X4pwIEhpjPvg8tMSTHU7DT4f80TZaqVlugI+CJfPyIXZBr7gSUEVx43b+r66MsrdKydUJ8l+kqJ4FoTMcIJgoA7PfLyEfaJCl6mTQObLL/hHHjBWbvqnMGlrIYvVJxJtmjJvZuE/eMUyAE7oh65qhP5b0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQXJ0c//DH/IxP9NCzguRD8DANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIAUABSAEEAVgBFAEUATgBTAFcAQQBUAC0AUABDAFwAUABSAEEAVgBFAEUATgAtAFAAQzAeFw0yNDA5MTYwOTU2MThaFw0yNTA5MTYxNTU2MThaMD0xOzA5BgNVBAMeMgBQAFIAQQBWAEUARQBOAFMAVwBBAFQALQBQAEMAXABQAFIAQQBWAEUARQBOAC0AUABDMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSPrmCvmCMBOZZFmgb9finAgSGmM++Dy0xJMdTsNPh/zRNlqpWW6Aj4Il8/IhdkGvuBJQRXHjdv6vroyyt0rJ1QnyX6SongWhMxwgmCgDs98vIR9okKXqZNA5ssv+EceMFZu+qcwaWshi9UnEm2aMm9m4T94xTIATuiHrmqE/lvQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAov4k1vhDZjKIuKe9NxuFMf+zvBRTLXgqUjaRzx/jx09N4wHLxJ+QK47ietESNYWxDs/T4Fogn2vB0mhZjIeCwaj1OKcOF2dnzT8AHM0jqtlQ1e4fyEZukIK6oLXRSul+fJMSIlmOxAVs2D+M5vGsRrjaFCneoCV64xCme03QIA</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
