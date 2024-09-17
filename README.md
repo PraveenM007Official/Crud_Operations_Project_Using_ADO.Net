@@ -10,3 +10,7 @@ A Simple project for vehicle rental companies to perform CRUD operaions on their
  
  
  3.Install the  setup file and use the apllication.
+
+
+
+Login Page info - Id = admin & password = 1234
