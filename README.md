@@ -13,4 +13,10 @@ A Simple project for vehicle rental companies to perform CRUD operaions on their
 
 
 
-Login Page info - Id = admin & password = 1234
+Login Page info:
+
+
+Id = admin 
+
+
+password = 1234
